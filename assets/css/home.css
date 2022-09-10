@@ -12,56 +12,56 @@
   margin: auto;
   background-color: black;
 }
-#top-area .welcome {
+#top-area .my-container .welcome {
   border-right: 1px solid gray;
   height: 45px;
   width: 178px;
 }
-#top-area .welcome p {
+#top-area .my-container .welcome p {
   color: white;
   padding-top: 9px;
   display: inline-block;
 }
-#top-area .language {
+#top-area .my-container .language {
   border-right: 1px solid gray;
   margin-left: 10px;
 }
-#top-area .language .button1 {
+#top-area .my-container .language .button1 {
   border-radius: 0px;
   background-color: black;
   border: 0px;
   position: relative;
   top: 3px;
 }
-#top-area .country {
+#top-area .my-container .country {
   border-right: 1px solid gray;
   margin-left: 10px;
 }
-#top-area .country .button2 {
+#top-area .my-container .country .button2 {
   border-radius: 0px;
   background-color: black;
   border: 0px;
   position: relative;
   top: 3px;
 }
-#top-area .country span {
+#top-area .my-container .country span {
   padding-left: 12px;
 }
-#top-area .country img {
+#top-area .my-container .country img {
   width: 22px;
   height: 22px;
   border-radius: 50%;
 }
-#top-area .icons {
+#top-area .my-container .icons {
   display: flex;
   float: right;
 }
-#top-area .icons .basket {
+#top-area .my-container .icons .basket {
   border-right: 1px solid gray;
   margin-right: 12px;
   position: relative;
 }
-#top-area .icons .basket .basket-circles {
+#top-area .my-container .icons .basket .basket-circles {
   width: 16px;
   height: 16px;
   background-color: #FF5722;
@@ -71,23 +71,23 @@
   right: 10px;
   cursor: pointer;
 }
-#top-area .icons .basket .basket-circles sup {
+#top-area .my-container .icons .basket .basket-circles sup {
   margin-left: 5px;
   color: white;
 }
-#top-area .icons .basket i {
+#top-area .my-container .icons .basket i {
   color: white;
   margin-right: 20px;
   margin-top: 15px;
   font-size: 18px;
   cursor: pointer;
 }
-#top-area .icons .heart {
+#top-area .my-container .icons .heart {
   border-right: 1px solid gray;
   height: 45px;
   margin-right: 20px;
 }
-#top-area .icons .heart .heart-circles {
+#top-area .my-container .icons .heart .heart-circles {
   width: 16px;
   height: 16px;
   background-color: #FF5722;
@@ -97,23 +97,23 @@
   right: 92px;
   cursor: pointer;
 }
-#top-area .icons .heart .heart-circles sup {
+#top-area .my-container .icons .heart .heart-circles sup {
   margin-left: 5px;
   color: white;
 }
-#top-area .icons .heart i {
+#top-area .my-container .icons .heart i {
   color: white;
   margin-right: 18px;
   margin-top: 14px;
   font-size: 18px;
   cursor: pointer;
 }
-#top-area .icons .profile-img {
+#top-area .my-container .icons .profile-img {
   border-right: 1px solid gray;
   height: 45px;
   width: 25px;
 }
-#top-area .icons .profile-img img {
+#top-area .my-container .icons .profile-img img {
   margin-left: -9px;
   border-radius: 50%;
   width: 100%;
@@ -126,27 +126,205 @@
 }
 #logo-search .my-container {
   width: 95%;
-  height: 45px;
   margin: auto;
   background-color: #F3F3F4;
 }
-#logo-search .logo img {
+#logo-search .my-container .logo img {
   margin-top: 33px;
 }
-#logo-search .search {
+#logo-search .my-container .search {
   float: right;
   margin-top: 30px;
   position: relative;
 }
-#logo-search .search input {
+#logo-search .my-container .search input {
   padding-left: 25px;
-  width: 500px;
-  height: 40px;
+  width: 600px;
+  height: 45px;
+  border-radius: 15px;
   border: none;
   outline: none;
 }
-#logo-search .search i {
+#logo-search .my-container .search i {
   position: absolute;
-  right: 10px;
-  top: 12px;
+  right: 22px;
+  top: 14px;
+}
+
+#nav-area {
+  background-color: #283593;
+}
+#nav-area .admin {
+  width: 125px;
+  background-color: #FF5722;
+}
+#nav-area .my-container {
+  width: 95%;
+  height: 50px;
+  background-color: #283593;
+}
+#nav-area nav {
+  position: absolute;
+  left: 0;
+}
+#nav-area .navbar-list {
+  display: flex;
+  margin-left: 15px;
+  margin-bottom: 0;
+}
+#nav-area .navbar-list li {
+  list-style: none;
+  margin-right: 15px;
+}
+#nav-area .navbar-list li:hover .home {
+  height: 130px;
+  width: 200px;
+}
+#nav-area .navbar-list li:hover .home li {
+  text-align: left;
+}
+#nav-area .navbar-list li:hover .shop {
+  height: 170px;
+  width: 200px;
+}
+#nav-area .navbar-list li:hover .categories {
+  height: 270px;
+  width: 1000px;
+}
+#nav-area .navbar-list li:hover .categories li {
+  text-align: left;
+}
+#nav-area .navbar-list li:hover a::before {
+  visibility: visible;
+  transform: scale(1, 1);
+}
+#nav-area .navbar-list li .home {
+  height: 130px;
+  width: 200px;
+}
+#nav-area .navbar-list li .shop {
+  height: 170px;
+  width: 200px;
+}
+#nav-area .navbar-list li .categories {
+  height: 270px;
+  width: 1000px;
+  display: flex;
+  gap: 150px;
+  text-align: left;
+}
+#nav-area .navbar-list li .submenu {
+  overflow: hidden;
+  position: absolute;
+  top: 57px;
+  background-color: #fff;
+  height: 0;
+  line-height: 40px;
+  transition: height 0.3s ease-in-out;
+  transition-delay: 0.1s;
+  border-radius: 5px;
+  z-index: 2;
+}
+#nav-area .navbar-list li .submenu li {
+  display: block;
+  text-align: left;
+}
+#nav-area .navbar-list li .submenu a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+}
+#nav-area .navbar-list li .submenu a:hover {
+  text-decoration: none;
+}
+#nav-area .navbar-list li .submenu .product1 {
+  padding-top: 20px;
+}
+#nav-area .navbar-list li .submenu .product1 h5 {
+  text-align: left;
+}
+#nav-area .navbar-list li .hov {
+  font-size: 18px;
+  color: white;
+  display: block;
+  text-decoration: none;
+  position: relative;
+  padding: 11.5px 0;
+}
+#nav-area .navbar-list li .hov::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  bottom: -6px;
+  left: 0px;
+  background-color: #FF5722;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0, 0);
+  visibility: hidden;
+}
+
+#slider-img {
+  padding-top: 80px;
+}
+#slider-img .my-container {
+  width: 95%;
+  margin: auto;
+  background-color: #283593;
+}
+#slider-img .swiper {
+  width: 100%;
+  height: 100%;
+}
+#slider-img .swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#slider-img .swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  filter: brightness(0.5);
+  z-index: -1;
+}
+#slider-img .swiper .swiper-slide p {
+  color: white;
+  position: absolute;
+  top: 170px;
+  left: 39%;
+  font-size: 30px;
+}
+#slider-img .swiper .swiper-slide h1 {
+  color: white;
+  position: absolute;
+  top: 200px;
+  font-size: 90px;
+}
+#slider-img .swiper .swiper-slide a {
+  background-color: white;
+  padding: 12px 25px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  position: absolute;
+  bottom: 70px;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+#slider-img .swiper .swiper-slide a:hover {
+  background-color: #FF5722;
+  color: white;
+}
+#slider-img .swiper .swiper-slide button {
+  position: absolute;
+  bottom: 100px;
+  width: 100px;
 }/*# sourceMappingURL=home.css.map */
