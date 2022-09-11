@@ -270,7 +270,6 @@
 #slider-img .my-container {
   width: 95%;
   margin: auto;
-  background-color: #283593;
 }
 #slider-img .swiper {
   width: 100%;
@@ -279,7 +278,7 @@
 #slider-img .swiper .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: #FFFFFF;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -327,4 +326,144 @@
   position: absolute;
   bottom: 100px;
   width: 100px;
+}
+
+#ship-sup-price {
+  margin-top: 70px;
+}
+#ship-sup-price .my-container {
+  width: 95%;
+  margin: auto;
+}
+#ship-sup-price .my-container .shipping-support-price-design {
+  width: 450px;
+  height: 125px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  border: 2px solid whitesmoke;
+  position: relative;
+  margin-top: 40px;
+}
+#ship-sup-price .my-container .shipping-support-price-design .ship-sup-price-icons {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: #283593;
+  border-radius: 50%;
+  position: relative;
+  left: 18px;
+  bottom: 40px;
+}
+#ship-sup-price .my-container .shipping-support-price-design .ship-sup-price-icons i {
+  position: absolute;
+  top: 23px;
+  left: 20px;
+  font-size: 30px;
+  color: #fff;
+}
+#ship-sup-price .my-container .shipping-support-price-design h3 {
+  margin-left: 155px;
+  margin-top: -60px;
+}
+#ship-sup-price .my-container .shipping-support-price-design p {
+  margin-left: 85px;
+}
+
+#collections {
+  background-color: #F3F3F4;
+  margin-top: 70px;
+}
+#collections .my-container {
+  width: 95%;
+  margin: auto;
+}
+#collections .my-container img {
+  filter: brightness(0.5);
+}
+#collections .my-container .latest {
+  height: 450px;
+  position: relative;
+}
+#collections .my-container .latest .card-info {
+  position: absolute;
+  bottom: 60px;
+  left: 30px;
+}
+#collections .my-container .latest .card-info a {
+  background-color: white;
+  padding: 12px 25px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  position: absolute;
+  top: 80px;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+#collections .my-container .latest .card-info a:hover {
+  background-color: #FF5722;
+  color: white;
+}
+#collections .my-container .latest .card-info h4 {
+  font-weight: bold;
+  color: white;
+}
+#collections .my-container .latest .card-info p {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+#collections .my-container .latest img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+#collections .my-container .card {
+  height: 200px;
+  border: none;
+}
+#collections .my-container .card img {
+  height: 100%;
+  border-radius: 10px;
+}
+#collections .my-container .card .card-info {
+  position: absolute;
+  bottom: 60px;
+  left: 30px;
+}
+#collections .my-container .card .card-info h4 {
+  font-weight: bold;
+  color: white;
+}
+#collections .my-container .card .card-info p {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+#collections .my-container .card .card-info a {
+  background-color: white;
+  padding: 12px 25px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  position: absolute;
+  top: 80px;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+#collections .my-container .card .card-info a:hover {
+  background-color: #FF5722;
+  color: white;
+}
+#collections .my-container .last-card {
+  position: relative;
+}
+#collections .my-container .last-card .card-info {
+  position: absolute;
+  left: 180px;
+}
+#collections .my-container .change-card {
+  top: 47px;
 }/*# sourceMappingURL=home.css.map */
