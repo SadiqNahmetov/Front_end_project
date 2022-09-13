@@ -2,935 +2,1040 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embryo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Embryo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/css/slick-theme.css">
-    <link rel="stylesheet" href="./assets/css/slick.css">
-    <link rel="stylesheet" href="./assets/css/home.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  
+  <link rel="stylesheet" href="./assets/css/Home/home.css">
 </head>
 
 <body>
 
 
 
-    <header>
-        <section id="top-area">
-            <div class="my-container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
-                        <div class="welcome">
-                            <p>Welcome to our store</p>
-                        </div>
-
-                        <div class="language">
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle button1" type="button"
-                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                    English
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li><a class="dropdown-item" href="#">English</a></li>
-                                    <li><a class="dropdown-item" href="#">French</a></li>
-
-                                </ul>
-                            </div>
-
-                        </div>
-
-                        <div class="country">
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle button2" type="button"
-                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                    USD
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li><a class="dropdown-item" href=""><img
-                                                src="./assets/img/Flag-India.jpg"><span>INR</span></a></li>
-                                    <li><a class="dropdown-item" href=""><img
-                                                src="./assets/img/220px-Flag_of_the_United_States.svg.png"><span>USD</span></a>
-                                    </li>
-                                    <li><a class="dropdown-item" href=""><img
-                                                src="./assets/img/Flag_of_New_Zealand.svg.png"><span>NZD</span></a></li>
-                                    <li><a class="dropdown-item" href=""><img
-                                                src="./assets/img/Flag_of_Germany.svg.png"><span>GMD</span></a></li>
-                                    <li><a class="dropdown-item" href=""><img
-                                                src="./assets/img/1200px-Flag_of_Israel.svg.png"><span>ILR</span></a>
-                                    </li>
-                                    <li><a class="dropdown-item" href=""><img
-                                                src="./assets/img/Flag_of_France.svg.png"><span>EUR</span></a></li>
-
-                                </ul>
-                            </div>
-
-                        </div>
-
-
-
-                    </div>
-
-                    <div class="col-8">
-                        <div class="icons">
-                            <div class="basket">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                                <div class="basket-circles"><sup>0</sup></div>
-                            </div>
-
-                            <div class="heart">
-                                <i class="fa-solid fa-heart"></i>
-                                <div class="heart-circles"><sup>0</sup></div>
-                            </div>
-
-                            <div class="profile-img"><a href=""><img src="./assets/img/profile.jpg" alt="profile"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="logo-search">
-            <div class="my-container">
-                <div class="row">
-                    <div class="col-12 d-flex">
-                        <div class="col-lg-6 col-md-3 col-sm-12 ">
-                            <div class="logo">
-                                <img src="./assets/img/embryo-logo.png" alt="">
-                            </div>
-                        </div>
-
-                        <div class="col-6">
-                            <div class="search">
-                                <input placeholder="Search" type="text">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section id="nav-area">
-            <div class="my-container">
-                <div class="col-12">
-                    <nav>
-                        <ul class="navbar-list">
-                            <li>
-                                <a class="hov" href="#">HOME</a>
-                                <ul class="submenu home">
-                                    <li><a href="#">HOME ONE</a></li>
-                                    <li><a href="#">HOME TWO</a></li>
-                                    <li><a href="#">HOME THREE</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a class="hov" href="#">SHOP</a>
-                                <ul class="submenu shop">
-                                    <li><a href="#">PRODUCT DETAIL</a></li>
-                                    <li><a href="#">CART</a></li>
-                                    <li><a href="#">CHECKOUT</a></li>
-                                    <li><a href="#">PAYMENT</a></li>
-                                </ul>
-                            </li>
-                            <li><a class="hov" href="#">ACCESSORIES</a></li>
-                            <li>
-                                <a class="hov" href="#">CATEGORIES</a>
-                                <ul class="submenu categories">
-                                    <div class="product1">
-                                        <h5>MEN</h5>
-                                        <hr />
-                                        <li><a href="#">- T-Shirts</a></li>
-                                        <li><a href="#">- Jeans</a></li>
-                                        <li><a href="#">- Shoes</a></li>
-                                        <li><a href="#">- Wallet</a></li>
-                                    </div>
-                                    <div class="product1">
-                                        <h5>WOMEN</h5>
-                                        <hr />
-                                        <li><a href="#">- Western Wear</a></li>
-                                        <li><a href="#">- Ethnic Wear</a></li>
-                                        <li><a href="#">- Sports Wear</a></li>
-                                    </div>
-                                    <div class="product1">
-                                        <h5>GADGETS</h5>
-                                        <hr />
-                                        <li><a href="#">- HeadPhones</a></li>
-                                        <li><a href="#">- Laptop</a></li>
-                                        <li><a href="#">- Speaker</a></li>
-                                        <li><a href="#">- Watch</a></li>
-                                    </div>
-                                    <div class="product1">
-                                        <h5>ACCESSORIES</h5>
-                                        <hr />
-                                        <li><a href="#">- Jewellery</a></li>
-                                        <li><a href="#">- Belts</a></li>
-                                        <li><a href="#">- HandBag</a></li>
-                                    </div>
-                                </ul>
-                            </li>
-                            <li><a class="hov" href="#">ABOUT US</a></li>
-                            <li><a class="hov" href="#">CONTACT US</a></li>
-                            <li><a class="hov admin" href="#">ADMIN PANEL</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </section>
-    </header>
-
-    <main>
-
-
-        <section id="slider-img">
-            <div class="my-container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="swiper mySwiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <p>2019 Latest Collection</p>
-                                    <h1>New Fashion<br />Collection</h1>
-                                    <img src="./assets/img/h-slider-1.e60ce1cc.jpg" alt="" />
-
-                                    <a href="">Shop Now</a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <p>2019 Latest Collection</p>
-                                    <h1>Summer Time<br />Collection</h1>
-                                    <img src="./assets/img/h-slider-2.e4a8e8e2.jpg" alt="" />
-
-                                    <a href="">Shop Now</a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <p>2019 Latest Collection</p>
-                                    <h1>Men's Suiting<br />And Clothing</h1>
-                                    <img src="./assets/img/h-slider-3.742f8c4c.jpg" alt="" />
-
-                                    <a href="">Shop Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="ship-sup-price">
-            <div class="my-container">
-                <div class="row">
-                    <div class="col-4">
-                         <div class="shipping-support-price-design">
-                            <div class="ship-sup-price-icons">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                            </div>
-                            <h3>Free Shipping</h3>
-                            <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.</p>
-                         </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="shipping-support-price-design">
-                           <div class="ship-sup-price-icons">
-                            <i class="fa-solid fa-thumbs-up"></i>
-                        </div>
-                            <h3>24X7 Support</h3>
-                            <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.</p>
-                         </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="shipping-support-price-design">
-                            <div class="ship-sup-price-icons">
-                                <i class="fa-solid fa-fire"></i>
-                            </div>
-                            <h3>Best Price</h3>
-                            <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.</p>
-                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    
-    
- 
-<section id="collections">
-    <div class="my-container">
+  <header>
+    <section id="top-area">
+      <div class="my-container">
         <div class="row">
-            <div class="col-4">
-                <div class="latest">
-                    <img src="./assets/img/collection.17e0ec43.jpg" alt="">
-                    <div class="card-info">
-                        <h4>Latest Collections</h4>
-                        <p>Save Upto 60%</p>
-                        <a href="">Shop Now</a>
-                      
-                    </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
+            <div class="welcome">
+              <p>Welcome to our store</p>
+            </div>
 
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card">
-                    <img src="./assets/img/col-men.a184996e.jpg" alt="">
-                    <div class="card-info">
-                        <h4>Mens Collections</h4>
-                        <p>Save Upto 40%</p>
-                        <a href="">Shop Now</a>
-                       
-                    </div>
+            <div class="language">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle button1" type="button" id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  English
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                  <li><a class="dropdown-item" href="#">French</a></li>
 
-                </div>
-                <div class="card change-card">
-                    <img src="./assets/img/col-watches.91e22f1d.jpg" alt="">
-                    <div class="card-info">
-                        <h4>Watches Collections</h4>
-                        <p>Save Upto 50%</p>
-                        <a href="">Shop Now</a>
-                    </div>
-                </div>
+                </ul>
+              </div>
+
             </div>
-            <div class="col-4">
-                <div class="card last-card">
-                    <img src="./assets/img/col-women.d48a3fbc.jpg" alt="">
-                    <div class="card-info">
-                        <h4>Mens Collections</h4>
-                        <p>Save Upto 40%</p>
-                        <a href="">Shop Now</a>
-                    </div>
-                </div>
-                <div class="card change-card last-card">
-                    <img src="./assets/img/col-accessories.fb7ceb1f.jpg" alt="">
-                    <div class="card-info">
-                        <h4>Mens Collections</h4>
-                        <p>Save Upto 40%</p>
-                        <a href="">Shop Now</a>
-                    </div>
-                </div>
+
+            <div class="country">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle button2" type="button" id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  USD
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href=""><img src="./assets/img/Flag-India.jpg"><span>INR</span></a></li>
+                  <li><a class="dropdown-item" href=""><img
+                        src="./assets/img/220px-Flag_of_the_United_States.svg.png"><span>USD</span></a>
+                  </li>
+                  <li><a class="dropdown-item" href=""><img
+                        src="./assets/img/Flag_of_New_Zealand.svg.png"><span>NZD</span></a></li>
+                  <li><a class="dropdown-item" href=""><img
+                        src="./assets/img/Flag_of_Germany.svg.png"><span>GMD</span></a></li>
+                  <li><a class="dropdown-item" href=""><img
+                        src="./assets/img/1200px-Flag_of_Israel.svg.png"><span>ILR</span></a>
+                  </li>
+                  <li><a class="dropdown-item" href=""><img
+                        src="./assets/img/Flag_of_France.svg.png"><span>EUR</span></a></li>
+
+                </ul>
+              </div>
+
             </div>
+
+
+
+          </div>
+
+          <div class="col-8">
+            <div class="icons">
+              <div class="basket">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <div class="basket-circles"><sup>0</sup></div>
+              </div>
+
+              <div class="heart">
+                <i class="fa-solid fa-heart"></i>
+                <div class="heart-circles"><sup>0</sup></div>
+              </div>
+
+              <div class="profile-img"><a href=""><img src="./assets/img/profile.jpg" alt="profile"></a>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-   <section id="shop-category">
-    <div class="my-container">
+    <section id="logo-search">
+      <div class="my-container">
         <div class="row">
-            <div class="col-lg-12 col-md-6 col-sm-12">
-                <h3>Shop By Category</h3>
-            </div>
-
-            <div class="col-3">
-               <div class="category-cards">
-                <img src="./assets/img/cat-shoes.d1db9953.jpg" alt="">
-                 <div class="category-text">
-                    <a href="">Clothing</a>
-                    <a href="">9 products</a>
-                 </div>
-               </div>
-            </div>
-            <div class="col-3">
-                <div class="category-cards">
-                    <img src="./assets/img/9-item-a.b21dfff7.jpg" alt="">
-                    <div class="category-text">
-                        <a href="">Shoes</a>
-                        <a href="">1 products</a>
-                     </div>
-                    
-                   </div>
-              
-            </div>
-            <div class="col-3">
-                <div class="category-cards">
-                    <img src="./assets/img/g-5-a.f7015f71.jpg" alt="">
-                    <div class="category-text">
-                        <a href="">Accessories</a>
-                        <a href="">4 products</a>
-                     </div>
-                    
-                   </div>
-               
-            </div>
-            <div class="col-3">
-                <div class="category-cards">
-                    <img src="./assets/img/a-5-a.eae9d54f.jpg" alt="">
-                    <div class="category-text">
-                        <a href="">Gadgets</a>
-                        <a href="">5 products</a>
-                     </div>
-                    
-                   </div>
-               
-            </div>
-        </div>
-    </div>
-   </section>
-    
-
-
-   <section id="tab-menu">
-    <div class="my-container">
-      <div class="row">
-        <h2>New Products</h2>
-        <div class="tab">
-          <button class="tablinks active" onclick="openTabMenu(event, 'accessories')">Accessories</button>
-          <button class="tablinks " onclick="openTabMenu(event, 'gadgets')">Gadgets</button>
-          <button class="tablinks " onclick="openTabMenu(event, 'men')">Men</button>
-          <button class="tablinks " onclick="openTabMenu(event, 'women')">Women</button>
-
-        </div>
-
-        <div id="accessories" class="tabcontent" style="display:block;">
-          <div class="swiper mySwiper1">
-
-            <div class="swiper-wrapper">
-
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/img/a-1-a.57b3779d.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <a href="#" class="btn money btn-sm">$ 92.75</a>
-                  <a href="#" class="btn popular btn-danger btn-sm">popular</a>
-                  <p class="laptop">Laptop Backpack</p>
-                  <i class="fa-solid fa-cart-shopping shop-adds"></i>
-                  <div class="staars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star "></i>
-                  </div>
-                  <div class="line"></div>
-                  <i class="fa-solid fa-heart heart_icon"></i>
-                  <i class="fa-solid fa-eye eye_icon"></i>
-
-                </div>
+          <div class="col-12 d-flex">
+            <div class="col-lg-6 col-md-3 col-sm-12 ">
+              <div class="logo">
+                <img src="./assets/img/embryo-logo.png" alt="">
               </div>
-
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/img/a-2-a.440780d4.jpg"  alt="Card image cap">
-                <div class="card-body">
-                  <a href="#" class="btn money btn-sm">$38.31</a>
-                  <a href="#" class="btn popular "></a>
-                  <p class="laptop">Men Belts</p>
-                  <i class="fa-solid fa-cart-shopping shop-adds"></i>
-                  <div class="staars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star "></i>
-                  </div>
-                  <div class="line"></div>
-                  <i class="fa-solid fa-heart heart_icon"></i>
-                  <i class="fa-solid fa-eye eye_icon"></i>
-
-                </div>
-              </div>
-
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/img/a-3-a.6c3d2b28.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <a href="#" class="btn money btn-sm">$56.75</a>
-                  <a href="#" class="btn popular"></a>
-                  <p class="laptop">Steel Chain</p>
-                  <i class="fa-solid fa-cart-shopping shop-adds"></i>
-                  <div class="staars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star "></i>
-                  </div>
-                  <div class="line"></div>
-                  <i class="fa-solid fa-heart heart_icon"></i>
-                  <i class="fa-solid fa-eye eye_icon"></i>
-
-                </div>
-              </div>
-
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/img/a-4-a.8147d4e6.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <a href="#" class="btn money btn-sm">$15.75</a>
-                  <a href="#" class="btn popular"></a>
-                  <p class="laptop">Men Purse</p>
-                  <i class="fa-solid fa-cart-shopping shop-adds"></i>
-                  <div class="staars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star "></i>
-                  </div>
-                  <div class="line"></div>
-                  <i class="fa-solid fa-heart heart_icon"></i>
-                  <i class="fa-solid fa-eye eye_icon"></i>
-
-                </div>
-              </div>
-
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/img/a-5-a.d54f.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <a href="#" class="btn money btn-sm">$15.75</a>
-                  <a href="#" class="btn popular btn-danger btn-sm">popular</a>
-                  <p class="laptop">Summer Goggles</p>
-                  <i class="fa-solid fa-cart-shopping shop-adds"></i>
-                  <div class="staars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star "></i>
-                  </div>
-                  <div class="line"></div>
-                  <i class="fa-solid fa-heart heart_icon"></i>
-                  <i class="fa-solid fa-eye eye_icon"></i>
-
-                </div>
-              </div>
-
-
-
             </div>
 
+            <div class="col-6">
+              <div class="search">
+                <input placeholder="Search" type="text">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div id="gadgets" class="tabcontent">
-          <div class="swiper mySwiper2">
 
-            <div class="swiper-wrapper">
-
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/img/g-1-a.bec01f1a.jpg"  alt="Card image cap">
-                <div class="card-body">
-                  <a href="#" class="btn money btn-sm">$125.75</a>
-                  <a href="#" class="btn popular"></a>
-                  <p class="laptop">Wired HeadPhone</p>
-                  <i class="fa-solid fa-cart-shopping shop-adds"></i>
-                  <div class="staars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star "></i>
+    <section id="nav-area">
+      <div class="my-container">
+        <div class="col-12">
+          <nav>
+            <ul class="navbar-list">
+              <li>
+                <a class="hov" href="#">HOME</a>
+                <ul class="submenu home">
+                  <li><a href="#">HOME ONE</a></li>
+                  <li><a href="#">HOME TWO</a></li>
+                  <li><a href="#">HOME THREE</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="hov" href="#">SHOP</a>
+                <ul class="submenu shop">
+                  <li><a href="#">PRODUCT DETAIL</a></li>
+                  <li><a href="#">CART</a></li>
+                  <li><a href="#">CHECKOUT</a></li>
+                  <li><a href="#">PAYMENT</a></li>
+                </ul>
+              </li>
+              <li><a class="hov" href="#">ACCESSORIES</a></li>
+              <li>
+                <a class="hov" href="#">CATEGORIES</a>
+                <ul class="submenu categories">
+                  <div class="product1">
+                    <h5>MEN</h5>
+                    <hr />
+                    <li><a href="#">- T-Shirts</a></li>
+                    <li><a href="#">- Jeans</a></li>
+                    <li><a href="#">- Shoes</a></li>
+                    <li><a href="#">- Wallet</a></li>
                   </div>
-                  <div class="line"></div>
-                  <i class="fa-solid fa-heart heart_icon"></i>
-                  <i class="fa-solid fa-eye eye_icon"></i>
+                  <div class="product1">
+                    <h5>WOMEN</h5>
+                    <hr />
+                    <li><a href="#">- Western Wear</a></li>
+                    <li><a href="#">- Ethnic Wear</a></li>
+                    <li><a href="#">- Sports Wear</a></li>
+                  </div>
+                  <div class="product1">
+                    <h5>GADGETS</h5>
+                    <hr />
+                    <li><a href="#">- HeadPhones</a></li>
+                    <li><a href="#">- Laptop</a></li>
+                    <li><a href="#">- Speaker</a></li>
+                    <li><a href="#">- Watch</a></li>
+                  </div>
+                  <div class="product1">
+                    <h5>ACCESSORIES</h5>
+                    <hr />
+                    <li><a href="#">- Jewellery</a></li>
+                    <li><a href="#">- Belts</a></li>
+                    <li><a href="#">- HandBag</a></li>
+                  </div>
+                </ul>
+              </li>
+              <li><a class="hov" href="#">ABOUT US</a></li>
+              <li><a class="hov" href="#">CONTACT US</a></li>
+              <li><a class="hov admin" href="#">ADMIN PANEL</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+  </header>
 
+  <main>
+
+
+    <section id="slider-img">
+      <div class="my-container">
+        <div class="row">
+          <div class="col-12">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <p>2019 Latest Collection</p>
+                  <h1>New Fashion<br />Collection</h1>
+                  <img src="./assets/img/h-slider-1.e60ce1cc.jpg" alt="" />
+
+                  <a href="">Shop Now</a>
+                </div>
+                <div class="swiper-slide">
+                  <p>2019 Latest Collection</p>
+                  <h1>Summer Time<br />Collection</h1>
+                  <img src="./assets/img/h-slider-2.e4a8e8e2.jpg" alt="" />
+
+                  <a href="">Shop Now</a>
+                </div>
+                <div class="swiper-slide">
+                  <p>2019 Latest Collection</p>
+                  <h1>Men's Suiting<br />And Clothing</h1>
+                  <img src="./assets/img/h-slider-3.742f8c4c.jpg" alt="" />
+
+                  <a href="">Shop Now</a>
                 </div>
               </div>
-
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/img/download.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <a href="#" class="btn money btn-sm">$847.63</a>
-                  <a href="#" class="btn popular"></a>
-                  <p class="laptop">Black Smartphone</p>
-                  <i class="fa-solid fa-cart-shopping shop-adds"></i>
-                  <div class="staars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star "></i>
-                  </div>
-                  <div class="line"></div>
-                  <i class="fa-solid fa-heart heart_icon"></i>
-                  <i class="fa-solid fa-eye eye_icon"></i>
-
-                </div>
-              </div>
-
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/img/g-3-a.41b84954.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <a href="#" class="btn money btn-sm">$357.55</a>
-                  <a href="#" class="btn popular btn-danger btn-sm">popular</a>
-                  <p class="laptop">Digital Watch</p>
-                  <i class="fa-solid fa-cart-shopping shop-adds"></i>
-                  <div class="staars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star "></i>
-                  </div>
-                  <div class="line"></div>
-                  <i class="fa-solid fa-heart heart_icon"></i>
-                  <i class="fa-solid fa-eye eye_icon"></i>
-
-                </div>
-              </div>
-
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/img/g-4-a.714b7265.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <a href="#" class="btn money btn-sm">$568.75</a>
-                  <a href="#" class="btn popular"></a>
-                  <p class="laptop">Digital watch</p>
-                  <i class="fa-solid fa-cart-shopping shop-adds"></i>
-                  <div class="staars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star "></i>
-                  </div>
-                  <div class="line"></div>
-                  <i class="fa-solid fa-heart heart_icon"></i>
-                  <i class="fa-solid fa-eye eye_icon"></i>
-
-                </div>
-              </div>
-
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/img/g-5-a1.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <a href="#" class="btn money btn-sm">$989</a>
-                  <a href="#" class="btn popular"></a>
-                  <p class="laptop">Circular Speaker</p>
-                  <i class="fa-solid fa-cart-shopping shop-adds"></i>
-                  <div class="staars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star "></i>
-                  </div>
-                  <div class="line"></div>
-                  <i class="fa-solid fa-heart heart_icon"></i>
-                  <i class="fa-solid fa-eye eye_icon"></i>
-
-                </div>
-              </div>
-
-
-
             </div>
-
           </div>
         </div>
+      </div>
+    </section>
 
-        <div id="men" class="tabcontent">
-          <div class="swiper mySwiper3">
-            <div class="swiper-wrapper">
+    <section id="ship-sup-price">
+      <div class="my-container">
+        <div class="row">
+          <div class="col-4">
+            <div class="shipping-support-price-design">
+              <div class="ship-sup-price-icons">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <h3>Free Shipping</h3>
+              <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.</p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="shipping-support-price-design">
+              <div class="ship-sup-price-icons">
+                <i class="fa-solid fa-thumbs-up"></i>
+              </div>
+              <h3>24X7 Support</h3>
+              <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.</p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="shipping-support-price-design">
+              <div class="ship-sup-price-icons">
+                <i class="fa-solid fa-fire"></i>
+              </div>
+              <h3>Best Price</h3>
+              <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/img/2-item-a.e131509d.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <a href="#" class="btn money btn-sm">$82.75</a>
-                  <a href="#" class="btn popular"></a>
-                  <p class="laptop">Super Jacket</p>
-                  <i class="fa-solid fa-cart-shopping shop-adds"></i>
-                  <div class="staars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star "></i>
-                  </div>
-                  <div class="line"></div>
-                  <i class="fa-solid fa-heart heart_icon"></i>
-                  <i class="fa-solid fa-eye eye_icon"></i>
 
-                </div>
+
+    <section id="collections">
+      <div class="my-container">
+        <div class="row">
+          <div class="col-4">
+            <div class="latest">
+              <img src="./assets/img/collection.17e0ec43.jpg" alt="">
+              <div class="card-info">
+                <h4>Latest Collections</h4>
+                <p>Save Upto 60%</p>
+                <a href="">Shop Now</a>
+
               </div>
 
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/img/3-item-a.44bd4841.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <a href="#" class="btn money btn-sm">$18.75</a>
-                  <a href="#" class="btn popular"></a>
-                  <p class="laptop">Wintage Jean</p>
-                  <i class="fa-solid fa-cart-shopping shop-adds"></i>
-                  <div class="staars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star "></i>
-                  </div>
-                  <div class="line"></div>
-                  <i class="fa-solid fa-heart heart_icon"></i>
-                  <i class="fa-solid fa-eye eye_icon"></i>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img src="./assets/img/col-men.a184996e.jpg" alt="">
+              <div class="card-info">
+                <h4>Mens Collections</h4>
+                <p>Save Upto 40%</p>
+                <a href="">Shop Now</a>
 
-                </div>
               </div>
 
-              <div class="card swiper-slide">
-                <img class="card-img-top" src="./assets/img/1-item-a.ff1cdae8.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <a href="#" class="btn money btn-sm">$42.75</a>
-                  <a href="#" class="btn popular"></a>
-                  <p class="laptop">Dennim Pullover</p>
-                  <i class="fa-solid fa-cart-shopping shop-adds"></i>
-                  <div class="staars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star "></i>
-                  </div>
-                  <div class="line"></div>
-                  <i class="fa-solid fa-heart heart_icon"></i>
-                  <i class="fa-solid fa-eye eye_icon"></i>
-
-                </div>
+            </div>
+            <div class="card change-card">
+              <img src="./assets/img/col-watches.91e22f1d.jpg" alt="">
+              <div class="card-info">
+                <h4>Watches Collections</h4>
+                <p>Save Upto 50%</p>
+                <a href="">Shop Now</a>
               </div>
-
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/img/4-item-a.5108aed9.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <a href="#" class="btn money btn-sm">$40.82</a>
-                  <a href="#" class="btn popular"></a>
-                  <p class="laptop">Blue Jean</p>
-                  <i class="fa-solid fa-cart-shopping shop-adds"></i>
-                  <div class="staars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star "></i>
-                  </div>
-                  <div class="line"></div>
-                  <i class="fa-solid fa-heart heart_icon"></i>
-                  <i class="fa-solid fa-eye eye_icon"></i>
-
-                </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card last-card">
+              <img src="./assets/img/col-women.d48a3fbc.jpg" alt="">
+              <div class="card-info">
+                <h4>Mens Collections</h4>
+                <p>Save Upto 40%</p>
+                <a href="">Shop Now</a>
               </div>
-
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/img/cat-shoes.d1db9953.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <a href="#" class="btn money btn-sm">$ 65.75</a>
-                  <a href="#" class="btn popular btn-danger btn-sm">popular</a>
-                  <p class="laptop">Men White Air</p>
-                  <i class="fa-solid fa-cart-shopping shop-adds"></i>
-                  <div class="staars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star "></i>
-                  </div>
-                  <div class="line"></div>
-                  <i class="fa-solid fa-heart heart_icon"></i>
-                  <i class="fa-solid fa-eye eye_icon"></i>
-
-                </div>
+            </div>
+            <div class="card change-card last-card">
+              <img src="./assets/img/col-accessories.fb7ceb1f.jpg" alt="">
+              <div class="card-info">
+                <h4>Mens Collections</h4>
+                <p>Save Upto 40%</p>
+                <a href="">Shop Now</a>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="shop-category">
+      <div class="my-container">
+        <div class="row">
+          <div class="col-lg-12 col-md-6 col-sm-12">
+            <h3>Shop By Category</h3>
+          </div>
 
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img class="card-img-top" src="/assets/img/5-item-a.cb4ef9b1.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <a href="#" class="btn money btn-sm">$22.75</a>
-                  <a href="#" class="btn popular"></a>
-                  <p class="laptop">Black T-Shirt</p>
-                  <i class="fa-solid fa-cart-shopping shop-adds"></i>
-                  <div class="staars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star "></i>
-                  </div>
-                  <div class="line"></div>
-                  <i class="fa-solid fa-heart heart_icon"></i>
-                  <i class="fa-solid fa-eye eye_icon"></i>
-
-                </div>
+          <div class="col-3">
+            <div class="category-cards">
+              <img src="./assets/img/cat-shoes.d1db9953.jpg" alt="">
+              <div class="category-text">
+                <a href="">Clothing</a>
+                <a href="">9 products</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="category-cards">
+              <img src="./assets/img/9-item-a.b21dfff7.jpg" alt="">
+              <div class="category-text">
+                <a href="">Shoes</a>
+                <a href="">1 products</a>
               </div>
 
             </div>
 
           </div>
-        </div>
-        <div id="women" class="tabcontent">
-          <div class="swiper mySwiper4">
-            <div class="swiper-wrapper">
-
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/img/w-item-a.1459ebf4.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <a href="#" class="btn money btn-sm">$97.75</a>
-                  <a href="#" class="btn popular"></a>
-                  <p class="laptop">Red Strip Dress</p>
-                  <i class="fa-solid fa-cart-shopping shop-adds"></i>
-                  <div class="staars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star "></i>
-                  </div>
-                  <div class="line"></div>
-                  <i class="fa-solid fa-heart heart_icon"></i>
-                  <i class="fa-solid fa-eye eye_icon"></i>
-
-                </div>
+          <div class="col-3">
+            <div class="category-cards">
+              <img src="./assets/img/g-5-a.f7015f71.jpg" alt="">
+              <div class="category-text">
+                <a href="">Accessories</a>
+                <a href="">4 products</a>
               </div>
 
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/img/w2-a.674dc964.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <a href="#" class="btn money btn-sm">$49.75</a>
-                  <a href="#" class="btn popular"></a>
-                  <p class="laptop">Blue Denim</p>
-                  <i class="fa-solid fa-cart-shopping shop-adds"></i>
-                  <div class="staars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star "></i>
-                  </div>
-                  <div class="line"></div>
-                  <i class="fa-solid fa-heart heart_icon"></i>
-                  <i class="fa-solid fa-eye eye_icon"></i>
+            </div>
 
-                </div>
+          </div>
+          <div class="col-3">
+            <div class="category-cards">
+              <img src="./assets/img/a-5-a.eae9d54f.jpg" alt="">
+              <div class="category-text">
+                <a href="">Gadgets</a>
+                <a href="">5 products</a>
               </div>
-
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/img/w3-a.b9a10876.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <a href="#" class="btn money btn-sm">$15.75</a>
-                  <a href="#" class="btn popular"></a>
-                  <p class="laptop">Black Dress</p>
-                  <i class="fa-solid fa-cart-shopping shop-adds"></i>
-                  <div class="staars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star "></i>
-                  </div>
-                  <div class="line"></div>
-                  <i class="fa-solid fa-heart heart_icon"></i>
-                  <i class="fa-solid fa-eye eye_icon"></i>
-
-                </div>
-              </div>
-
-
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/img/w4-a.b21dfff7 (1).jpg" alt="Card image cap">
-                <div class="card-body">
-                  <a href="#" class="btn money btn-sm">$19.45</a>
-                  <a href="#" class="btn popular"></a>
-                  <p class="laptop">White T-Shirt</p>
-                  <i class="fa-solid fa-cart-shopping shop-adds"></i>
-                  <div class="staars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star "></i>
-                  </div>
-                  <div class="line"></div>
-                  <i class="fa-solid fa-heart heart_icon"></i>
-                  <i class="fa-solid fa-eye eye_icon"></i>
-
-                </div>
-              </div>
-
-
 
             </div>
 
           </div>
         </div>
       </div>
-    </div>
-
-</section>
+    </section>
 
 
-     <section id="arrival">
+
+    <section id="tab-menu">
+      <div class="all-product">
         <div class="my-container">
-            <div class="row my-5">
-                <div class="col-12">
-                    <div class="back-img">
-                        <div class="arrival-img">
-                            <img src="./assets/img/arrival.jpg" alt="">
-                            <i class="fa-solid fa-gear"></i>
-                             <h4>New Arrival</h4>
-                             <h2>Sunglasses For Everyone</h2>
-                             <a href="">Shop Now</a>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-     </section>
-
-     <section id="brands">
-        <div class="my-container">
-            <div class="row">
-
-                <div class="top-brands">
-                    <h1>Top Brands</h1>
-                </div>
-                <div class="brands-card">
-                    <ul class="brands-slider">
-                     <li>
-                        <img src="./assets/img/brand1.png" alt="" />
-                    </li>
-                       <li>
-                        <img src="./assets/img/brand2.png" alt="" />
-                    </li>
-                       <li>
-                        <img  class="brands-img-size" src="./assets/img/brand4.png" alt="" />
-                    </li>
-                       <li>
-                        <img src="./assets/img/brand1.png" alt="">
-                    </li>
-                       <li>
-                        <img src="./assets/img/brand2.png" alt="">
-                    </li>
-                    <li>
-                        <img src="./assets/img/brand2.png" alt="">
-                    </li>
-                    <li>
-                        <img src="./assets/img/brand2.png" alt="">
-                    </li>
-                    </ul>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-     </section>
-
-     <section id="subscribe">
-        <div class="my-container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="newsletter">
-                        <h3>Subscribe Our Newsletter</h3>
-                        <p>Stay up to date with our latest new and products</p>
-                        <input class="subcirib-input" type="text" placeholder="Your Email Address">
-                        <a href=""><i class="fa-solid fa-paper-plane"></i></a>
-
-                        <div class="icons-sub">
-                            <i class="fa-solid fa-square-check"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-     </section>
-
-     <section id="dowlanad">
-        <div class="my-container">
+          <div class="row">
             
+            <div class="all">
+              <h2>New Products</h2>
+              <div class="tab">
+                <button class="tablinks active" onclick="openTabMenu(event, 'accessories')">Accessories</button>
+                <button class="tablinks " onclick="openTabMenu(event, 'gadgets')">Gadgets</button>
+                <button class="tablinks " onclick="openTabMenu(event, 'men')">Men</button>
+                <button class="tablinks " onclick="openTabMenu(event, 'women')">Women</button>
+  
+  
+  
+                <div id="accessories" class="tabcontent" style="display:block;">
+                 
+                  <div class="swiper mySwiper1">
+      
+                    <div class="swiper-wrapper">
+      
+                      <div class="card swiper-slide" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/img/a-1-a.57b3779d.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <a href="#" class="btn money btn-sm">$ 92.75</a>
+                          <a href="#" class="btn popular btn-danger btn-sm">popular</a>
+                          <p class="laptop">Laptop Backpack</p>
+                          <i class="fa-solid fa-cart-shopping shop-adds"></i>
+                          <div class="staars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                          </div>
+                          <div class="line"></div>
+                          <i class="fa-solid fa-heart heart_icon"></i>
+                          <i class="fa-solid fa-eye eye_icon"></i>
+      
+                        </div>
+                      </div>
+      
+                      <div class="card swiper-slide" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/img/a-2-a.440780d4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <a href="#" class="btn money btn-sm">$38.31</a>
+                          <a href="#" class="btn popular "></a>
+                          <p class="laptop">Men Belts</p>
+                          <i class="fa-solid fa-cart-shopping shop-adds"></i>
+                          <div class="staars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                          </div>
+                          <div class="line"></div>
+                          <i class="fa-solid fa-heart heart_icon"></i>
+                          <i class="fa-solid fa-eye eye_icon"></i>
+      
+                        </div>
+                      </div>
+      
+                      <div class="card swiper-slide" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/img/a-3-a.6c3d2b28.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <a href="#" class="btn money btn-sm">$56.75</a>
+                          <a href="#" class="btn popular"></a>
+                          <p class="laptop">Steel Chain</p>
+                          <i class="fa-solid fa-cart-shopping shop-adds"></i>
+                          <div class="staars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                          </div>
+                          <div class="line"></div>
+                          <i class="fa-solid fa-heart heart_icon"></i>
+                          <i class="fa-solid fa-eye eye_icon"></i>
+      
+                        </div>
+                      </div>
+      
+                      <div class="card swiper-slide" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/img/a-4-a.8147d4e6.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <a href="#" class="btn money btn-sm">$15.75</a>
+                          <a href="#" class="btn popular"></a>
+                          <p class="laptop">Men Purse</p>
+                          <i class="fa-solid fa-cart-shopping shop-adds"></i>
+                          <div class="staars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                          </div>
+                          <div class="line"></div>
+                          <i class="fa-solid fa-heart heart_icon"></i>
+                          <i class="fa-solid fa-eye eye_icon"></i>
+      
+                        </div>
+                      </div>
+      
+                      <div class="card swiper-slide" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/img/a-5-a.d54f.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <a href="#" class="btn money btn-sm">$15.75</a>
+                          <a href="#" class="btn popular btn-danger btn-sm">popular</a>
+                          <p class="laptop">Summer Goggles</p>
+                          <i class="fa-solid fa-cart-shopping shop-adds"></i>
+                          <div class="staars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                          </div>
+                          <div class="line"></div>
+                          <i class="fa-solid fa-heart heart_icon"></i>
+                          <i class="fa-solid fa-eye eye_icon"></i>
+      
+                        </div>
+                      </div>
+      
+      
+      
+                    </div>
+      
+                  </div>
+                </div>
+      
+                <div id="gadgets" class="tabcontent">
+                  <div class="swiper mySwiper2">
+      
+                    <div class="swiper-wrapper">
+      
+                      <div class="card swiper-slide" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/img/g-1-a.bec01f1a.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <a href="#" class="btn money btn-sm">$125.75</a>
+                          <a href="#" class="btn popular"></a>
+                          <p class="laptop">Wired HeadPhone</p>
+                          <i class="fa-solid fa-cart-shopping shop-adds"></i>
+                          <div class="staars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                          </div>
+                          <div class="line"></div>
+                          <i class="fa-solid fa-heart heart_icon"></i>
+                          <i class="fa-solid fa-eye eye_icon"></i>
+      
+                        </div>
+                      </div>
+      
+                      <div class="card swiper-slide" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/img/download.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <a href="#" class="btn money btn-sm">$847.63</a>
+                          <a href="#" class="btn popular"></a>
+                          <p class="laptop">Black Smartphone</p>
+                          <i class="fa-solid fa-cart-shopping shop-adds"></i>
+                          <div class="staars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                          </div>
+                          <div class="line"></div>
+                          <i class="fa-solid fa-heart heart_icon"></i>
+                          <i class="fa-solid fa-eye eye_icon"></i>
+      
+                        </div>
+                      </div>
+      
+                      <div class="card swiper-slide" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/img/g-3-a.41b84954.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <a href="#" class="btn money btn-sm">$357.55</a>
+                          <a href="#" class="btn popular btn-danger btn-sm">popular</a>
+                          <p class="laptop">Digital Watch</p>
+                          <i class="fa-solid fa-cart-shopping shop-adds"></i>
+                          <div class="staars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                          </div>
+                          <div class="line"></div>
+                          <i class="fa-solid fa-heart heart_icon"></i>
+                          <i class="fa-solid fa-eye eye_icon"></i>
+      
+                        </div>
+                      </div>
+      
+                      <div class="card swiper-slide" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/img/g-4-a.714b7265.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <a href="#" class="btn money btn-sm">$568.75</a>
+                          <a href="#" class="btn popular"></a>
+                          <p class="laptop">Digital watch</p>
+                          <i class="fa-solid fa-cart-shopping shop-adds"></i>
+                          <div class="staars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                          </div>
+                          <div class="line"></div>
+                          <i class="fa-solid fa-heart heart_icon"></i>
+                          <i class="fa-solid fa-eye eye_icon"></i>
+      
+                        </div>
+                      </div>
+      
+                      <div class="card swiper-slide" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/img/g-5-a1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <a href="#" class="btn money btn-sm">$989</a>
+                          <a href="#" class="btn popular"></a>
+                          <p class="laptop">Circular Speaker</p>
+                          <i class="fa-solid fa-cart-shopping shop-adds"></i>
+                          <div class="staars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                          </div>
+                          <div class="line"></div>
+                          <i class="fa-solid fa-heart heart_icon"></i>
+                          <i class="fa-solid fa-eye eye_icon"></i>
+      
+                        </div>
+                      </div>
+      
+      
+      
+                    </div>
+      
+                  </div>
+                </div>
+      
+                <div id="men" class="tabcontent">
+                  <div class="swiper mySwiper3">
+                    <div class="swiper-wrapper">
+      
+                      <div class="card swiper-slide" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/img/2-item-a.e131509d.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <a href="#" class="btn money btn-sm">$82.75</a>
+                          <a href="#" class="btn popular"></a>
+                          <p class="laptop">Super Jacket</p>
+                          <i class="fa-solid fa-cart-shopping shop-adds"></i>
+                          <div class="staars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                          </div>
+                          <div class="line"></div>
+                          <i class="fa-solid fa-heart heart_icon"></i>
+                          <i class="fa-solid fa-eye eye_icon"></i>
+      
+                        </div>
+                      </div>
+      
+                      <div class="card swiper-slide" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/img/3-item-a.44bd4841.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <a href="#" class="btn money btn-sm">$18.75</a>
+                          <a href="#" class="btn popular"></a>
+                          <p class="laptop">Wintage Jean</p>
+                          <i class="fa-solid fa-cart-shopping shop-adds"></i>
+                          <div class="staars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                          </div>
+                          <div class="line"></div>
+                          <i class="fa-solid fa-heart heart_icon"></i>
+                          <i class="fa-solid fa-eye eye_icon"></i>
+      
+                        </div>
+                      </div>
+      
+                      <div class="card swiper-slide">
+                        <img class="card-img-top" src="./assets/img/1-item-a.ff1cdae8.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <a href="#" class="btn money btn-sm">$42.75</a>
+                          <a href="#" class="btn popular"></a>
+                          <p class="laptop">Dennim Pullover</p>
+                          <i class="fa-solid fa-cart-shopping shop-adds"></i>
+                          <div class="staars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                          </div>
+                          <div class="line"></div>
+                          <i class="fa-solid fa-heart heart_icon"></i>
+                          <i class="fa-solid fa-eye eye_icon"></i>
+      
+                        </div>
+                      </div>
+      
+                      <div class="card swiper-slide" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/img/4-item-a.5108aed9.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <a href="#" class="btn money btn-sm">$40.82</a>
+                          <a href="#" class="btn popular"></a>
+                          <p class="laptop">Blue Jean</p>
+                          <i class="fa-solid fa-cart-shopping shop-adds"></i>
+                          <div class="staars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                          </div>
+                          <div class="line"></div>
+                          <i class="fa-solid fa-heart heart_icon"></i>
+                          <i class="fa-solid fa-eye eye_icon"></i>
+      
+                        </div>
+                      </div>
+      
+                      <div class="card swiper-slide" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/img/cat-shoes.d1db9953.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <a href="#" class="btn money btn-sm">$ 65.75</a>
+                          <a href="#" class="btn popular btn-danger btn-sm">popular</a>
+                          <p class="laptop">Men White Air</p>
+                          <i class="fa-solid fa-cart-shopping shop-adds"></i>
+                          <div class="staars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                          </div>
+                          <div class="line"></div>
+                          <i class="fa-solid fa-heart heart_icon"></i>
+                          <i class="fa-solid fa-eye eye_icon"></i>
+      
+                        </div>
+                      </div>
+      
+      
+                      <div class="card swiper-slide" style="width: 18rem;">
+                        <img class="card-img-top" src="/assets/img/5-item-a.cb4ef9b1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <a href="#" class="btn money btn-sm">$22.75</a>
+                          <a href="#" class="btn popular"></a>
+                          <p class="laptop">Black T-Shirt</p>
+                          <i class="fa-solid fa-cart-shopping shop-adds"></i>
+                          <div class="staars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                          </div>
+                          <div class="line"></div>
+                          <i class="fa-solid fa-heart heart_icon"></i>
+                          <i class="fa-solid fa-eye eye_icon"></i>
+      
+                        </div>
+                      </div>
+      
+                    </div>
+      
+                  </div>
+                </div>
+                <div id="women" class="tabcontent">
+                  <div class="swiper mySwiper4">
+                    <div class="swiper-wrapper">
+      
+                      <div class="card swiper-slide" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/img/w-item-a.1459ebf4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <a href="#" class="btn money btn-sm">$97.75</a>
+                          <a href="#" class="btn popular"></a>
+                          <p class="laptop">Red Strip Dress</p>
+                          <i class="fa-solid fa-cart-shopping shop-adds"></i>
+                          <div class="staars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                          </div>
+                          <div class="line"></div>
+                          <i class="fa-solid fa-heart heart_icon"></i>
+                          <i class="fa-solid fa-eye eye_icon"></i>
+      
+                        </div>
+                      </div>
+      
+                      <div class="card swiper-slide" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/img/w2-a.674dc964.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <a href="#" class="btn money btn-sm">$49.75</a>
+                          <a href="#" class="btn popular"></a>
+                          <p class="laptop">Blue Denim</p>
+                          <i class="fa-solid fa-cart-shopping shop-adds"></i>
+                          <div class="staars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                          </div>
+                          <div class="line"></div>
+                          <i class="fa-solid fa-heart heart_icon"></i>
+                          <i class="fa-solid fa-eye eye_icon"></i>
+      
+                        </div>
+                      </div>
+      
+                      <div class="card swiper-slide" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/img/w3-a.b9a10876.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <a href="#" class="btn money btn-sm">$15.75</a>
+                          <a href="#" class="btn popular"></a>
+                          <p class="laptop">Black Dress</p>
+                          <i class="fa-solid fa-cart-shopping shop-adds"></i>
+                          <div class="staars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                          </div>
+                          <div class="line"></div>
+                          <i class="fa-solid fa-heart heart_icon"></i>
+                          <i class="fa-solid fa-eye eye_icon"></i>
+      
+                        </div>
+                      </div>
+      
+      
+                      <div class="card swiper-slide" style="width: 18rem;">
+                        <img class="card-img-top" src="./assets/img/w4-a.b21dfff7 (1).jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <a href="#" class="btn money btn-sm">$19.45</a>
+                          <a href="#" class="btn popular"></a>
+                          <p class="laptop">White T-Shirt</p>
+                          <i class="fa-solid fa-cart-shopping shop-adds"></i>
+                          <div class="staars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star "></i>
+                          </div>
+                          <div class="line"></div>
+                          <i class="fa-solid fa-heart heart_icon"></i>
+                          <i class="fa-solid fa-eye eye_icon"></i>
+      
+                        </div>
+                      </div>
+      
+      
+      
+                    </div>
+      
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+  
+           
+          </div>
         </div>
-     </section>
-    </main>
+      </div>
+    </section>
+
+
+    <section id="arrival">
+      <div class="my-container">
+        <div class="row my-5">
+          <div class="col-12">
+            <div class="back-img">
+              <div class="arrival-img">
+                <img src="./assets/img/arrival.jpg" alt="">
+                <i class="fa-solid fa-gear"></i>
+                <h4>New Arrival</h4>
+                <h2>Sunglasses For Everyone</h2>
+                <a href="">Shop Now</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="brands">
+      <div class="my-container">
+        <div class="row">
+
+          <div class="top-brands">
+            <h1>Top Brands</h1>
+          </div>
+          <div class="brands-card">
+            <ul class="brands-slider">
+              <li>
+                <img src="./assets/img/brand1.png" alt="" />
+              </li>
+              <li>
+                <img src="./assets/img/brand2.png" alt="" />
+              </li>
+              <li>
+                <img class="brands-img-size" src="./assets/img/brand4.png" alt="" />
+              </li>
+              <li>
+                <img src="./assets/img/brand1.png" alt="">
+              </li>
+              <li>
+                <img src="./assets/img/brand2.png" alt="">
+              </li>
+              <li>
+                <img src="./assets/img/brand2.png" alt="">
+              </li>
+              <li>
+                <img src="./assets/img/brand2.png" alt="">
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+    <section id="subscribe">
+      <div class="my-container">
+        <div class="row">
+          <div class="col-12">
+            <div class="newsletter">
+              <h3>Subscribe Our Newsletter</h3>
+              <p>Stay up to date with our latest new and products</p>
+              <input class="subcirib-input" type="text" placeholder="Your Email Address">
+              <a href=""><i class="fa-solid fa-paper-plane"></i></a>
+
+              <div class="icons-sub">
+                <i class="fa-solid fa-square-check"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="dowlanad-android">
+      <div class="my-container">
+        <div class="row">
+          <div class="col-6">
+            <div class="ios">
+              <i class="fa-brands fa-apple"></i>
+              <h5>Download IOS App</h5>
+              <div class="line"></div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="android">
+              <i class="fa-brands fa-android"></i>
+              <h5>Download Android App</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
 
 
-    <footer></footer>
+  <footer>
+    <section id="footer-area">
+      <div class="my-container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="about-area">
+              <h6 class="about">ABOUT COMPANY</h6>
+              <p class="about-text">Here you can use rows and columns here to organize your footer content.Lorem ipsum
+                dolor sit amet,consectetur adipisicing elit. Here you can use rows and columns here to organize your
+                footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="about-area">
+              <h6 class="about">ABOUT </h6>
+              <ul class="contact_us">
+                <li><a href="">about us</a></li>
+                <li><a href="">terms and condition</a></li>
+                <li><a href="">privacy policy</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">contact us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="about-area">
+              <h6 class="about">SESSION </h6>
+              <ul class="contact_us">
+                <li><a href="">sign in</a></li>
+                <li><a href="">register</a></li>
+                <li><a href="">forget password</a></li>
+                <li><a href="">thank you</a></li>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
-        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/0622708fc2.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="./assets/js/slick.min.js"></script>
-    <script src="./assets/js/home.js"></script>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="about-area">
+              <h6 class="about">CATEGORIES</h6>
+              <ul class="contact_us">
+                <li><a href="">men</a></li>
+                <li><a href="">accessories</a></li>
+                <li><a href="">gadgets</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="about-area">
+              <h6 class="about">SOCIAL</h6>
+              <ul class="contact_us">
+                <li><a href="">facebook</a></li>
+                <li><a href="">twitter</a></li>
+                <li><a href="">youtube</a></li>
+                <li><a href="">google plus</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer_img-text">
+      <div class="my-container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="footer-line"></div>
+            <div class="img-logo-end">
+              <img src="./assets/img/download.png" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="footer-lines"></div>
+            <p class="end-texts">© All Rights Reversed | Made With Love by IRON NETWORK for better Web </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/0622708fc2.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./assets/js/slick.min.js"></script>
+  <script src="./assets/js/Home/home.js"></script>
 </body>
 
 </html>
