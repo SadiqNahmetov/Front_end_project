@@ -720,6 +720,11 @@
         -ms-flex-align: center;
         -webkit-align-items: center;
         align-items: center;
+
+        &:hover .shop-adds{
+          transform: translateY(-25px);
+          transition: 0.4s;
+        }
       }
   
       .swiper-slide img {
@@ -770,6 +775,10 @@
         color: gray;
         margin-right: 275px;
         margin-top: 10px;
+        cursor: pointer;
+        &:hover{
+          color: #FF5722;
+        }
   
       }
   
@@ -778,6 +787,10 @@
         position: absolute;
         right: 30px;
         bottom: 20px;
+        cursor: pointer;
+        &:hover{
+          color: #FF5722;
+        }
       }
   
       .shop-adds {
@@ -791,8 +804,11 @@
         padding-top: 18px;
         color: white;
         font-size: 23px;
-        top: 408px;
+        top: 360px;
         left: 230px;
+
+        
+
       }
     }
 
@@ -942,6 +958,9 @@
 
 
       }
+
+      
+      
 
       ::placeholder {
         color: #fff;

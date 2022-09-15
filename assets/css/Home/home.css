@@ -562,6 +562,10 @@
   justify-content: center;
   align-items: center;
 }
+#tab-menu .my-container .all .swiper-slide:hover .shop-adds {
+  transform: translateY(-25px);
+  transition: 0.4s;
+}
 #tab-menu .my-container .all .swiper-slide img {
   display: block;
   width: 100%;
@@ -601,12 +605,20 @@
   color: gray;
   margin-right: 275px;
   margin-top: 10px;
+  cursor: pointer;
+}
+#tab-menu .my-container .all .heart_icon:hover {
+  color: #FF5722;
 }
 #tab-menu .my-container .all .eye_icon {
   color: gray;
   position: absolute;
   right: 30px;
   bottom: 20px;
+  cursor: pointer;
+}
+#tab-menu .my-container .all .eye_icon:hover {
+  color: #FF5722;
 }
 #tab-menu .my-container .all .shop-adds {
   background-color: #283593;
@@ -618,7 +630,7 @@
   padding-top: 18px;
   color: white;
   font-size: 23px;
-  top: 408px;
+  top: 360px;
   left: 230px;
 }
 

@@ -567,7 +567,7 @@ background-size: 100%;
           margin-left: 8px;
 
           &:hover {
-              background-color: #333F98;
+              background-color: #ed0b0b;
           }
       }
   }
@@ -613,6 +613,13 @@ background-size: 100%;
           display: flex;
           align-items: center;
           justify-content: center;
+          cursor: pointer;
+
+          &:hover{
+              background-color: #ed0b0b;
+          }
+
+
       }
   }
 
