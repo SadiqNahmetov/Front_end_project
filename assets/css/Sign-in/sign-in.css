@@ -331,7 +331,7 @@
   opacity: 1;
   transform: scale(0.75) translateY(-100%) translateX(-30px);
 }
-#login .login-area .login #sign {
+#login .login-area .login #sign-in {
   background-color: #FF5722;
   padding: 12px 25px;
   border-radius: 50px;
@@ -342,7 +342,7 @@
   color: white;
   transition: 0.3s;
 }
-#login .login-area .login #sign:hover {
+#login .login-area .login #sign-in:hover {
   background-color: rgb(218, 10, 10);
   color: black;
 }
@@ -362,11 +362,11 @@
 #login .login-area .login .remember a:hover {
   color: rgb(218, 10, 10);
 }
-#login .login-area .login .sign-hov {
+#login .login-area .login .sign-in-hov {
   color: #283593;
   text-decoration: none;
 }
-#login .login-area .login .sign-hov:hover {
+#login .login-area .login .sign-in-hov:hover {
   color: rgb(218, 10, 10);
 }
 
@@ -434,4 +434,4 @@
   color: #fff;
   font-size: 13px;
   margin-top: 32px;
-}/*# sourceMappingURL=sign.css.map */
+}/*# sourceMappingURL=sign-in.css.map */

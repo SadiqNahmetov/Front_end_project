@@ -335,11 +335,11 @@
   }
 
 
-  #login {
+  #register {
     padding-top: 6%;
     padding-bottom: 6%;
 
-    .login-area {
+    .register-area {
         margin-left: 16%;
         height: 600px;
 
@@ -347,128 +347,107 @@
         display: flex;
 
 
-        .image {
+        .images {
             height: 100%;
-            width: 435px;
+            width: 430px;
             background-size: 100%;
-            ;
-            img{
-              width: 100%;
-            }
+           img{
+            width: 100%;
+           }
         }
 
-        .login {
+        .register {
             position: relative;
-            right: 50px;
-            top: 15%;
+            right: 37px;
+            top: 37px;
             background: white;
             width: 50%;
-            height: 403px;
+            height: 540px;
             display: flex;
             flex-direction: column;
-            padding: 22px;
+            padding: 17px;
             border-radius: 5px;
-            box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
             label {
                 margin: 20px 0;
                 height: 30px;
                 position: relative;
                 display: inline-block;
+            }
 
-                span {
-                    padding: 10px;
-                    pointer-events: none;
-                    position: absolute;
-                    left: 0;
-                    top: 0;
-                    transition: 0.2s;
-                    transition-timing-function: ease;
-                    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
-                    opacity: 0.5;
-                }
+            span {
+                padding: 10px;
+                pointer-events: none;
+                position: absolute;
+                left: 0;
+                top: 0;
+                transition: 0.2s;
+                transition-timing-function: ease;
+                transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+                opacity: 0.5;
+            }
 
-                input {
-                    padding: 10px;
-                    width: 100%;
-                    border: none;
-                    border-bottom: 0.5px solid;
-                    outline: none;
+            input {
+                padding: 10px;
+                width: 100%;
+                border: none;
+                border-bottom: 0.5px solid;
+                outline: none;
 
-                    &:focus {
-                        + {
-                            span {
-                                opacity: 1;
-                                transform: scale(0.75) translateY(-100%) translateX(-16px);
-                                color: #283593;
+                &:focus {
+                    + {
+                        span {
+                            opacity: 1;
+                            transform: scale(0.75) translateY(-100%) translateX(-16px);
+                            color: #283593;
 
-                            }
-                        }
-
-                        border-bottom: 2px solid #283593;
-
-                    }
-
-                    &:not(:placeholder-shown) {
-                        + {
-                            span {
-                                opacity: 1;
-                                transform: scale(0.75) translateY(-100%) translateX(-30px);
-
-                            }
                         }
                     }
 
-                }
-            }
-
-            #sign {
-
-              background-color: #FF5722;;
-              padding: 12px 25px;
-              border-radius: 50px;
-              text-transform: uppercase;
-              transition: 0.5s;
-              position: absolute;
-              text-decoration: none;
-              color: white;
-              transition: 0.3s;
-      
-              &:hover {
-                background-color: rgb(218, 10, 10) ;
-                color: black;
-              }
-            }
-
-            .remember {
-                margin-top: 30px;
-                font-size: 18px;
-
-                input {
-                    transform: scale(1.5);
-                    margin-right: 10px;
+                    border-bottom: 2px solid #283593;
+                    ;
                 }
 
-                a {
-                  color: #283593;
-                    text-decoration: none;
-                    float: right;
-                    
-                    &:hover{
-                      color:rgb(218, 10, 10) ;
+                &:not(:placeholder-shown) {
+                    + {
+                        span {
+                            opacity: 1;
+                            transform: scale(0.75) translateY(-100%) translateX(-30px);
+
+                        }
                     }
                 }
-
             }
+               
+            #sign-up {
 
-            .sign-hov{
-              color: #283593;
-              text-decoration: none;
+                background-color: #FF5722;;
+                padding: 12px 25px;
+                border-radius: 50px;
+                text-transform: uppercase;
+                transition: 0.5s;
+                position: absolute;
+                text-decoration: none;
+                color: white;
+                transition: 0.3s;
+        
+                &:hover {
+                  background-color: rgb(218, 10, 10) ;
+                  color: black;
+                }
 
-              &:hover{
-                color:rgb(218, 10, 10) ;
+                
               }
+              .sign-up-hov{
+                color: #283593;
+                text-decoration: none;
+
+                &:hover{
+                    color:rgb(218, 10, 10);
+                }
             }
+           
         }
     }
 }
