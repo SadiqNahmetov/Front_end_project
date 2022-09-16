@@ -181,7 +181,7 @@
 }
 #nav-area .navbar-list li:hover .categories {
   height: 270px;
-  width: 1000px;
+  width: 822px;
 }
 #nav-area .navbar-list li:hover .categories li {
   text-align: left;
@@ -200,9 +200,9 @@
 }
 #nav-area .navbar-list li .categories {
   height: 270px;
-  width: 1000px;
+  width: 822px;
   display: flex;
-  gap: 150px;
+  gap: 90px;
   text-align: left;
 }
 #nav-area .navbar-list li .submenu {
@@ -281,31 +281,5 @@
   font-weight: bold;
 }
 #slide-accesories .my-container .sliders img {
-  width: 100%;
-}
-
-#white-t-shirt {
-  background-color: red;
-  height: 450px;
-  margin-top: 70px;
-}
-#white-t-shirt .my-container {
-  width: 95%;
-  height: 50px;
-  margin: auto;
-}
-#white-t-shirt .my-container .img-hovers {
-  width: 130px;
-  height: 100px;
-  padding: 5px;
-  padding-left: 60px;
-}
-#white-t-shirt .my-container .img-hovers a img {
-  width: 100%;
-}
-#white-t-shirt .my-container .main-img {
-  width: 440px;
-}
-#white-t-shirt .my-container .main-img a img {
   width: 100%;
 }/*# sourceMappingURL=product.css.map */

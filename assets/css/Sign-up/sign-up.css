@@ -181,7 +181,7 @@
 }
 #nav-area .navbar-list li:hover .categories {
   height: 270px;
-  width: 1000px;
+  width: 822px;
 }
 #nav-area .navbar-list li:hover .categories li {
   text-align: left;
@@ -200,9 +200,9 @@
 }
 #nav-area .navbar-list li .categories {
   height: 270px;
-  width: 1000px;
+  width: 822px;
   display: flex;
-  gap: 150px;
+  gap: 90px;
   text-align: left;
 }
 #nav-area .navbar-list li .submenu {

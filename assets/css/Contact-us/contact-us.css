@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -137,7 +137,6 @@
 #nav-area .my-container {
   width: 95%;
   height: 50px;
-  margin: auto;
   background-color: #283593;
 }
 #nav-area nav {
@@ -201,7 +200,7 @@
 }
 #nav-area .navbar-list li .categories {
   height: 270px;
-  width: 8220px;
+  width: 822px;
   display: flex;
   gap: 90px;
   text-align: left;
@@ -257,74 +256,32 @@
   visibility: hidden;
 }
 
-#profile {
-  padding-top: 80px;
-  padding-bottom: 90px;
-  background-color: whitesmoke;
+#slide-accesories {
+  background-image: url(../../img/accessories-slideimg.jpg);
+  height: 300px;
+  background-position: 2%;
+  background-size: 100%;
 }
-#profile .my-container {
+#slide-accesories .my-container {
   width: 95%;
+  height: 50px;
   margin: auto;
 }
-#profile .my-container .user {
-  display: flex;
-}
-#profile .my-container .user img {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-}
-#profile .my-container .user .info {
-  margin-left: 15px;
-}
-#profile .my-container .user-information {
-  width: 350.5px;
-  height: 420.5px;
-  margin-top: 10px;
-  padding-top: 10px;
-  padding-left: 40px;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
-}
-#profile .my-container .user-information:hover i {
-  color: rgb(218, 10, 10);
-}
-#profile .my-container .user-information .icon i {
-  line-height: 50px;
-  font-size: 20px;
-}
-#profile .my-container .user-information .icon span {
-  margin-left: 10px;
-}
-#profile .my-container .empty {
+#slide-accesories .my-container .sliders {
   width: 100%;
-  height: 420.5px;
-  margin-top: 88px;
-  padding-top: 20px;
-  padding-left: 30px;
-  background-color: whitesmoke;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
-}
-#profile .my-container .empty .info-user {
-  margin-top: 30px;
+  height: 330px;
+  text-align: center;
   display: flex;
-}
-#profile .my-container .empty .info-user #edit {
-  background-color: #FF5722;
-  padding: 8px 22px;
-  border-radius: 50px;
-  text-transform: uppercase;
-  transition: 0.5s;
-  position: absolute;
-  text-decoration: none;
+  justify-content: center;
+  align-items: center;
   color: white;
-  transition: 0.3s;
 }
-#profile .my-container .empty .info-user #edit:hover {
-  background-color: rgb(218, 10, 10);
-  color: black;
+#slide-accesories .my-container .sliders h4 {
+  font-size: 42px;
+  font-weight: bold;
 }
-#profile .my-container .empty .info-user .info-names {
-  padding-left: 50px;
+#slide-accesories .my-container .sliders img {
+  width: 100%;
 }
 
 #footer-area {
@@ -391,4 +348,4 @@
   color: #fff;
   font-size: 13px;
   margin-top: 32px;
-}/*# sourceMappingURL=profile.css.map */
+}/*# sourceMappingURL=contact-us.css.map */
