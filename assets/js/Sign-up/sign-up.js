@@ -5,7 +5,7 @@ $(function (){
     window.onscroll = function () {scrollFunction()};
   
     function scrollFunction(){
-      if (document.body.scrollTop > 155 || document.documentElement.scrollTop > 155) {
+      if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
         scrollSection.style.top = "0";    
      } else {
         scrollSection.style.top = "-77px";

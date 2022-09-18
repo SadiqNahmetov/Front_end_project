@@ -320,6 +320,180 @@
         }
     }
 }
+
+.visibl{
+    visibility: hidden;
+  }
+  
+  #scrol-area {
+      height: 70px;
+      background-color: #283593;
+      z-index: 2;
+      position: fixed;
+      width: 100%;
+      display: block;
+      transition: .3s;
+  
+      
+     
+    
+    .admin {
+      width: 125px;
+      height: 71px;
+      background-color: #FF5722;
+      margin-top: -11.9px;
+      padding-top: 11px;
+    }
+    
+  
+    .my-container {
+      width: 95%;
+      margin: auto;
+      background-color: #283593;
+    
+     
+    }
+    .scrol-nav-logo{
+      width: 180px;
+      img{
+        width: 100%;
+        margin-top: 20px;
+      }
+    }
+  
+    nav {
+      position: absolute;
+      left: 0;
+      margin-top: -36px;
+  
+    
+      
+    }
+  
+    .navbar-list-scrol {
+      display: flex;
+      margin-left: 40rem;
+      margin-bottom: 0;
+  
+  
+      li {
+        list-style: none;
+        margin-right: 15px;
+  
+        &:hover {
+          .home {
+            height: 130px;
+            width: 200px;
+  
+            li {
+              text-align: left;
+            }
+          }
+  
+          .shop {
+            height: 170px;
+            width: 200px;
+          }
+  
+          .categories {
+            height: 270px;
+            width: 822px;
+  
+            li {
+              text-align: left;
+            }
+          }
+  
+          a {
+            &::before {
+              visibility: visible;
+              transform: scale(1, 1);
+            }
+          }
+        }
+  
+        .home {
+          height: 130px;
+          width: 200px;
+        }
+  
+        .shop {
+          height: 170px;
+          width: 200px;
+        }
+  
+        .categories {
+          height: 270px;
+          width: 822px;
+          left: 32rem;
+          display: flex;
+          gap: 90px;
+          text-align: left;
+        }
+  
+        .submenu {
+          overflow: hidden;
+          position: absolute;
+          top: 57px;
+          background-color: #fff;
+          height: 0;
+          line-height: 40px;
+          transition: height 0.3s ease-in-out;
+          transition-delay: 0.1s;
+          border-radius: 5px;
+          z-index: 2;
+  
+          li {
+            display: block;
+            text-align: left;
+          }
+  
+          a {
+            color: black;
+  
+            font-size: 16px;
+            text-decoration: none;
+  
+            &:hover {
+              text-decoration: none;
+            }
+          }
+  
+          .product1 {
+            padding-top: 20px;
+  
+            h5 {
+              text-align: left;
+            }
+          }
+        }
+  
+        .hov {
+          font-size: 18px;
+          color: white;
+          display: block;
+          text-decoration: none;
+          position: relative;
+          padding: 11.5px 0;
+  
+  
+          &::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 4px;
+            bottom: -7px;
+            left: 0px;
+            background-color: #FF5722;
+            transition: all 0.3s ease-in-out;
+            transform: scale(0, 0);
+            visibility: hidden;
+  
+          }
+        }
+      }
+    }
+  }
 #slide-accesories {
     background-image: url(../../img/accessories-slideimg.jpg);
     height: 300px;

@@ -264,6 +264,141 @@
   visibility: hidden;
 }
 
+.visibl {
+  visibility: hidden;
+}
+
+#scrol-area {
+  height: 70px;
+  background-color: #283593;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  display: block;
+  transition: 0.3s;
+}
+#scrol-area .admin {
+  width: 125px;
+  height: 71px;
+  background-color: #FF5722;
+  margin-top: -11.9px;
+  padding-top: 11px;
+}
+#scrol-area .my-container {
+  width: 95%;
+  margin: auto;
+  background-color: #283593;
+}
+#scrol-area .scrol-nav-logo {
+  width: 180px;
+}
+#scrol-area .scrol-nav-logo img {
+  width: 100%;
+  margin-top: 20px;
+}
+#scrol-area nav {
+  position: absolute;
+  left: 0;
+  margin-top: -36px;
+}
+#scrol-area .navbar-list-scrol {
+  display: flex;
+  margin-left: 40rem;
+  margin-bottom: 0;
+}
+#scrol-area .navbar-list-scrol li {
+  list-style: none;
+  margin-right: 15px;
+}
+#scrol-area .navbar-list-scrol li:hover .home {
+  height: 130px;
+  width: 200px;
+}
+#scrol-area .navbar-list-scrol li:hover .home li {
+  text-align: left;
+}
+#scrol-area .navbar-list-scrol li:hover .shop {
+  height: 170px;
+  width: 200px;
+}
+#scrol-area .navbar-list-scrol li:hover .categories {
+  height: 270px;
+  width: 822px;
+}
+#scrol-area .navbar-list-scrol li:hover .categories li {
+  text-align: left;
+}
+#scrol-area .navbar-list-scrol li:hover a::before {
+  visibility: visible;
+  transform: scale(1, 1);
+}
+#scrol-area .navbar-list-scrol li .home {
+  height: 130px;
+  width: 200px;
+}
+#scrol-area .navbar-list-scrol li .shop {
+  height: 170px;
+  width: 200px;
+}
+#scrol-area .navbar-list-scrol li .categories {
+  height: 270px;
+  width: 822px;
+  left: 32rem;
+  display: flex;
+  gap: 90px;
+  text-align: left;
+}
+#scrol-area .navbar-list-scrol li .submenu {
+  overflow: hidden;
+  position: absolute;
+  top: 57px;
+  background-color: #fff;
+  height: 0;
+  line-height: 40px;
+  transition: height 0.3s ease-in-out;
+  transition-delay: 0.1s;
+  border-radius: 5px;
+  z-index: 2;
+}
+#scrol-area .navbar-list-scrol li .submenu li {
+  display: block;
+  text-align: left;
+}
+#scrol-area .navbar-list-scrol li .submenu a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+}
+#scrol-area .navbar-list-scrol li .submenu a:hover {
+  text-decoration: none;
+}
+#scrol-area .navbar-list-scrol li .submenu .product1 {
+  padding-top: 20px;
+}
+#scrol-area .navbar-list-scrol li .submenu .product1 h5 {
+  text-align: left;
+}
+#scrol-area .navbar-list-scrol li .hov {
+  font-size: 18px;
+  color: white;
+  display: block;
+  text-decoration: none;
+  position: relative;
+  padding: 11.5px 0;
+}
+#scrol-area .navbar-list-scrol li .hov::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  bottom: -7px;
+  left: 0px;
+  background-color: #FF5722;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0, 0);
+  visibility: hidden;
+}
+
 #login {
   padding-top: 6%;
   padding-bottom: 6%;

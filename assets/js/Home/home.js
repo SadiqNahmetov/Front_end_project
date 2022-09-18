@@ -3,7 +3,6 @@ let swiper = new Swiper(".mySwiper",{
 })
 
 
-
 function openTabMenu(evt, TabMenu) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -66,9 +65,6 @@ var swiper1 = new Swiper("#tab-menu .mySwiper1", {
     },
   });
 
-  
-
-
 
 $('.brands-slider').slick({
 
@@ -105,3 +101,27 @@ $('.brands-slider').slick({
      
     ]
   });
+
+  
+
+$(function (){
+  
+  let scrollSection = document.getElementById("scrol-area")
+   
+  window.onscroll = function () {scrollFunction()};
+
+  function scrollFunction(){
+    if (document.body.scrollTop > 195 || document.documentElement.scrollTop > 195) {
+      scrollSection.style.top = "0";    
+   } else {
+      scrollSection.style.top = "-77px";
+      scrollSection.classList.remove("visibl");
+   }
+  }
+
+
+});
+
+
+
+
