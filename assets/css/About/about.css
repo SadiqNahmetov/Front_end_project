@@ -1,6 +1,6 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -208,7 +208,7 @@
 }
 #nav-area .navbar-list li .categories {
   height: 270px;
-  width: 822px;
+  width: 1000px;
   display: flex;
   gap: 90px;
   text-align: left;
@@ -292,62 +292,243 @@
   width: 100%;
 }
 
-#product-mapp {
-  background-color: #F3F3F4;
+#e-commerce-about,
+#mission,
+#vision {
+  padding: 80px;
+  background-color: whitesmoke;
 }
-#product-mapp iframe {
-  filter: brightness(0.5);
-}
-
-#contact-us {
-  padding-top: 37px;
-  padding-bottom: 26px;
-}
-#contact-us h1 {
+#e-commerce-about h1,
+#mission h1,
+#vision h1 {
   font-size: 3.1em;
   line-height: 1.1em;
   margin-bottom: 0.8em;
 }
-#contact-us h4,
-#contact-us a {
+#e-commerce-about h3,
+#mission h3,
+#vision h3 {
   margin-bottom: 1em;
+}
+#e-commerce-about .read-mores1,
+#mission .read-mores1,
+#vision .read-mores1 {
+  background-color: #FF5722;
+  padding: 12px 25px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  position: absolute;
   text-decoration: none;
-  color: rgb(42, 41, 41);
+  color: white;
+  left: 5%;
+  margin-top: 30%;
 }
-#contact-us h4:hover,
-#contact-us a:hover {
-  color: #FF5722;
+#e-commerce-about .read-mores1:hover,
+#mission .read-mores1:hover,
+#vision .read-mores1:hover {
+  background-color: rgb(218, 10, 10);
+  color: black;
+  transition: 0.5s;
 }
-#contact-us h3 {
-  font-size: 2.125rem;
-  line-height: 3.1rem;
+#e-commerce-about .read-mores2,
+#mission .read-mores2,
+#vision .read-mores2 {
+  background-color: #FF5722;
+  padding: 12px 25px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  right: 40%;
 }
-#contact-us .info {
+#e-commerce-about .read-mores2:hover,
+#mission .read-mores2:hover,
+#vision .read-mores2:hover {
+  background-color: rgb(218, 10, 10);
+  color: black;
+  transition: 0.5s;
+}
+#e-commerce-about .read-mores3,
+#mission .read-mores3,
+#vision .read-mores3 {
+  background-color: #FF5722;
+  padding: 12px 25px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  left: 5%;
+}
+#e-commerce-about .read-mores3:hover,
+#mission .read-mores3:hover,
+#vision .read-mores3:hover {
+  background-color: rgb(218, 10, 10);
+  color: black;
+  transition: 0.5s;
+}
+#e-commerce-about .info-about,
+#mission .info-about,
+#vision .info-about {
   flex-direction: column;
   display: flex;
+  justify-content: center;
   height: 100%;
 }
-#contact-us .register-area {
+#e-commerce-about img,
+#mission img,
+#vision img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+#e-commerce-about img img,
+#mission img img,
+#vision img img {
+  width: 700px;
+  height: 700px;
+}
+
+#slider-cards {
+  height: 600px;
+  background-image: url(../../img/About/about-slide-bg.jpg);
+}
+#slider-cards .swiper {
+  width: 30%;
+  height: 100%;
+}
+#slider-cards .swiper-slide {
+  background-color: transparent;
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#slider-cards .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#slider-cards .card {
+  border: none;
+  box-shadow: none;
+  margin-top: 2em;
+  padding: 1.5em 0.5em 0.5em;
+  border-radius: 2em;
+  text-align: center;
+  box-shadow: none;
+  background-color: transparent;
+  color: white;
+}
+#slider-cards .card img {
+  width: 38%;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#slider-cards .card .card-title {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+#slider-cards .card .btn {
+  background-color: #283593;
+  padding: 12px 25px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  left: 35%;
+}
+#slider-cards .card .btn:hover {
+  background-color: rgb(218, 10, 10);
+  color: black;
+  transition: 0.5s;
+}
+
+#cards {
+  padding: 80px;
+  background: whitesmoke;
+}
+#cards .card {
+  border: none;
+  box-shadow: none;
+  margin-top: 2em;
+  padding: 1.5em 0.5em 0.5em;
+  border-radius: 2em;
+  text-align: center;
+  box-shadow: none;
+  background-color: transparent;
+}
+#cards .card img {
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#cards .card .card-title {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+#cards .card .btn {
+  background-color: #FF5722;
+  padding: 12px 25px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  left: 35%;
+}
+#cards .card .btn:hover {
+  background-color: rgb(218, 10, 10);
+  color: black;
+  transition: 0.5s;
+}
+
+#register .img img {
+  width: 100%;
+  height: 100%;
+}
+#register .register-area {
   height: 600px;
   background-color: white;
   display: flex;
 }
-#contact-us .register-area .register {
+#register .register-area .image {
+  height: 100%;
+  background-size: 100%;
+}
+#register .register-area .image img {
+  height: 100%;
+}
+#register .register-area .register {
   background: white;
-  width: 100%;
+  width: 61%;
+  margin-left: 50px;
   height: 542px;
   display: flex;
   flex-direction: column;
-  padding: 17px;
+  padding: 50px;
   border-radius: 5px;
 }
-#contact-us .register-area .register label {
+#register .register-area .register label {
   margin: 20px 0;
   height: 30px;
   position: relative;
   display: inline-block;
 }
-#contact-us .register-area .register span {
+#register .register-area .register span {
   padding: 10px;
   pointer-events: none;
   position: absolute;
@@ -358,47 +539,57 @@
   transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
   opacity: 0.5;
 }
-#contact-us .register-area .register input {
+#register .register-area .register input {
   padding: 10px;
   width: 100%;
   border: none;
   border-bottom: 0.5px solid;
   outline: none;
 }
-#contact-us .register-area .register input:focus {
+#register .register-area .register input:focus {
   border-bottom: 2px solid #283593;
 }
-#contact-us .register-area .register input:focus + span {
+#register .register-area .register input:focus + span {
   opacity: 1;
   transform: scale(0.75) translateY(-100%) translateX(-16px);
   color: #283593;
 }
-#contact-us .register-area .register input:not(:-moz-placeholder-shown) + span {
+#register .register-area .register input:not(:-moz-placeholder-shown) + span {
   opacity: 1;
   transform: scale(0.75) translateY(-100%) translateX(-30px);
 }
-#contact-us .register-area .register input:not(:-ms-input-placeholder) + span {
+#register .register-area .register input:not(:-ms-input-placeholder) + span {
   opacity: 1;
   transform: scale(0.75) translateY(-100%) translateX(-30px);
 }
-#contact-us .register-area .register input:not(:placeholder-shown) + span {
+#register .register-area .register input:not(:placeholder-shown) + span {
   opacity: 1;
   transform: scale(0.75) translateY(-100%) translateX(-30px);
 }
-#contact-us .register-area .register .sign-up-contact {
+#register .register-area .register .sign-up-about {
   background-color: #FF5722;
-  padding: 10px 25px;
+  padding: 12px 25px;
   border-radius: 50px;
   text-transform: uppercase;
   transition: 0.5s;
   position: absolute;
   text-decoration: none;
   color: white;
-  transition: 0.3s;
 }
-#contact-us .register-area .register .sign-up-contact:hover {
+#register .register-area .register .sign-up-about:hover {
   background-color: rgb(218, 10, 10);
   color: black;
+  transition: 0.5s;
+}
+#register .register-area .register .about-sign-in {
+  margin-top: 40px;
+}
+#register .register-area .register .about-sign-in a {
+  text-decoration: none;
+  color: #2a347b;
+}
+#register .register-area .register .about-sign-in a:hover {
+  color: rgb(218, 10, 10);
 }
 
 #footer-area {
@@ -465,4 +656,4 @@
   color: #fff;
   font-size: 13px;
   margin-top: 32px;
-}/*# sourceMappingURL=contact-us.css.map */
+}/*# sourceMappingURL=about.css.map */

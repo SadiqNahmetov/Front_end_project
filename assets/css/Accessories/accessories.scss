@@ -185,13 +185,23 @@
       }
 
       .profile-img {
-        width: 40px;
-
+              
+        .my-button{
+          background-color: #333F99;
+          border-color:#333F99;
+        }
+        .dropdown-menu{
+          transform: translate3d(0.375px, 10px,0px) !important;
+        }
+        
         img {
-
+          margin-left: -26px;
           border-radius: 50%;
           width: 100%;
-          margin-top: 30px;
+          margin-top: 25px;
+        }
+        .span-location{
+          margin-left: 15px;
         }
       }
     }
@@ -299,7 +309,7 @@
 
       .categories {
         height: 270px;
-        width: 1000px;
+        width: 822px;
         display: flex;
         gap: 90px;
         text-align: left;
@@ -660,7 +670,7 @@ background-size: 100%;
           border-bottom: 2px solid rgb(234, 230, 230);
 
           img {
-              width: 200px;
+              
               cursor: pointer;
           }
 

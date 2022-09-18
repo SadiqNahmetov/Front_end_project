@@ -118,13 +118,21 @@
   font-size: 18px;
   cursor: pointer;
 }
-#top-area .my-container .icons .profile-img {
-  width: 40px;
+#top-area .my-container .icons .profile-img .my-button {
+  background-color: #333F99;
+  border-color: #333F99;
+}
+#top-area .my-container .icons .profile-img .dropdown-menu {
+  transform: translate3d(0.375px, 10px, 0px) !important;
 }
 #top-area .my-container .icons .profile-img img {
+  margin-left: -26px;
   border-radius: 50%;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 25px;
+}
+#top-area .my-container .icons .profile-img .span-location {
+  margin-left: 15px;
 }
 
 #nav-area {
@@ -200,7 +208,7 @@
 }
 #nav-area .navbar-list li .categories {
   height: 270px;
-  width: 1000px;
+  width: 822px;
   display: flex;
   gap: 90px;
   text-align: left;
@@ -506,7 +514,6 @@
   border-bottom: 2px solid rgb(234, 230, 230);
 }
 #products .my-container .my-card .image img {
-  width: 200px;
   cursor: pointer;
 }
 #products .my-container .my-card .image i {

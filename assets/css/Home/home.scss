@@ -110,7 +110,7 @@
           border-radius: 50%;
           position: absolute;
           top: 7px;
-          right: 92px;
+          right: 100px;
           cursor: pointer;
 
           sup {
@@ -133,14 +133,22 @@
 
       .profile-img {
         border-right: 1px solid gray;
-        height: 45px;
-        width: 25px;
-
+        .my-button{
+          background-color: black;
+          border-color: black;
+        }
+        .dropdown-menu{
+          transform: translate3d(0.375px, 10px,0px) !important;
+        }
+        
         img {
-          margin-left: -9px;
+          margin-left: -22px;
           border-radius: 50%;
           width: 100%;
-          margin-top: 10px;
+          margin-top: 1px;
+        }
+        .span-location{
+          margin-left: 15px;
         }
       }
     }

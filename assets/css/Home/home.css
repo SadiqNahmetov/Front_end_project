@@ -94,7 +94,7 @@
   border-radius: 50%;
   position: absolute;
   top: 7px;
-  right: 92px;
+  right: 100px;
   cursor: pointer;
 }
 #top-area .my-container .icons .heart .heart-circles sup {
@@ -110,14 +110,22 @@
 }
 #top-area .my-container .icons .profile-img {
   border-right: 1px solid gray;
-  height: 45px;
-  width: 25px;
+}
+#top-area .my-container .icons .profile-img .my-button {
+  background-color: black;
+  border-color: black;
+}
+#top-area .my-container .icons .profile-img .dropdown-menu {
+  transform: translate3d(0.375px, 10px, 0px) !important;
 }
 #top-area .my-container .icons .profile-img img {
-  margin-left: -9px;
+  margin-left: -22px;
   border-radius: 50%;
   width: 100%;
-  margin-top: 10px;
+  margin-top: 1px;
+}
+#top-area .my-container .icons .profile-img .span-location {
+  margin-left: 15px;
 }
 
 #logo-search {
